@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+    <head>
+        <meta charset="utf-8">
+        <title>JustStreamit</title>
+        <link href="style/style.css" rel="stylesheet">
+        <script src="scripts/modal-window.js" defer></script>
+        <script src="scripts/script.js" defer></script>
+        <script src="scripts/carousel.js"></script>
+    </head>
+
+    <body>
+
+        <!-- HEADER -->
+        <header>
+            <h1>JustStreamit</h1>
+            <div class="best-movie">
+                <!-- Remplir cette section avec le film le mieux noté -->
+
+                <button id="modal-button">Détails</button>
+            </div>
+
+        </header>
+
+        <!-- MAIN -->
+        <main>
+
+            <div class="container">
+                <class id="best-rated-movies">
+                    <h2>Films les mieux notés</h2>
+                    <div class="movie-list" id="best-movies-list">
+                        <!-- Remplir cette section avec les 7 autres films les mieux notés -->
+                    </div>
+                </class>
+
+                <class="category">
+                        <h2>Romance</h2>
+                        <div class="category-movies" id="romance-movies">
+                            <!-- Remplir cette section avec les 7 films les mieux notés de la catégorie 1 -->
+        
+                        </div>
+                </class>
+
+                <class="category">
+                        <h2>Action</h2>
+                        <div class="category-movies" id="action-movies">
+                            <!-- Remplir cette section avec les 7 films les mieux notés de la catégorie 2 -->
+        
+                        </div>
+                </class>
+
+                <class="category">
+                        <h2>Horror</h2>
+                        <div class="category-movies" id="horror-movies">
+                            <!-- Remplir cette section avec les 7 films les mieux notés de la catégorie 3 -->
+        
+                        </div>
+                </class> 
+    
+                <div id="carousel1"> </div>
+                <div id="carousel2"> </div>
+                <div id="carousel3"> </div>
+                <div id="carousel4"> </div>
+            </div>
+
+        </main>
+
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close" id="close-button">&times;</span>
+                <img id="modal-image" src="" alt="Meilleur Film">
+                <h2 id="modal-title">Nom du Film</h2>
+                <p>Genre : <span id="modal-genre"></span></p>
+                <p>Date de sortie : <span id="modal-release-date"></span></p>
+                <p>Rated : <span id="modal-rated"></span></p>
+                <p>Score : <span id="modal-imdb-score"></span></p>
+                <p>Réalisateur : <span id="modal-director"></span></p>
+                <p>Acteurs : <span id="modal-actors"></span></p>
+            </div>
+        </div>
+
+        <template id="movie-template">
+            <div class="movie-item">
+                <img id="movie-image" src="" alt="Image du film">
+                <!--h2 class="movie-title">Titre du film</h2-->
+                <!--p class="movie-genre">Genre du film</p-->
+                <!-- Ajoutez d'autres éléments pour les informations sur le film ici -->
+                
+            </div>
+        </template>
+
+    </body>
+</html>
