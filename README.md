@@ -18,13 +18,13 @@ view detailed information about each movie, and navigate through lists using a c
 1. Clone the Repository:
 
     ```
-    git clone https://github.com/mouhamamdou/Projet-6.git
+    git clone https://github.com/mouhamamdou/user-interface-with-JavaScript.git
     ```
 
 2. Naviguate to the project directory
 
     ```
-    cd Projet-6.git
+    cd user-interface-with-JavaScript
     ```
 
 3. Open the index.html file in your preferred web browser.
